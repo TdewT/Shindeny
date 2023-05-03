@@ -1,0 +1,62 @@
+.hero-image-container{
+	background-position: top;
+	height: 45vh;
+}
+.content-wrapper{
+	background-image: url(https://cdn.discordapp.com/attachments/392743635432505344/1103099926335983667/Akame_na_Shindena.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sidebar-wrapper{
+	border: 2px solid #ff000091;
+	background-color: rgba(12, 0, 0, 0.6);
+	padding: 15px;
+	border-radius: 20px 0 20px 0;
+	box-shadow: 0 0 10px #bf0000;
+}
+.view-content-wrapper{
+	box-shadow: 0 0 10px #bf0000;
+}
+
+.sidebar-list-item.is-active{
+	padding-left: 0%;
+	animation-name: none;
+}
+.is-active>.sidebar-list-title{
+	color: rgb(120 120 120) !important;
+}
+.input-element{
+	border: 1px solid rgb(147 0 0) !important;
+    background-color: rgb(38 2 0);
+	box-shadow: 0 0 10px #bf0000;
+}
+.custom-dropdown .custom-dropdown-control, 
+.custom-dropdown-control, 
+.advanced-tags-btn{
+	border: 1px solid rgb(147 0 0) !important;
+    background-color: rgb(60 2 0) !important;
+	box-shadow: 0 0 10px #bf0000;
+}
+.is-active:not(.sidebar-list-item){
+	border: 1px solid rgb(100 0 0) !important;
+    background-color: rgb(38 2 0) !important;
+	box-shadow: 0 0 10px #440000;
+}
+
+.sidebar-list-item:hover{
+	animation-name: list-title;
+	animation-duration: 0.4s;
+	padding-left: 5%;
+}
+:not(.is-active):hover>.sidebar-list-title{
+	text-shadow: 0 -0 10px #aa0000;
+}
+
+@keyframes list-title{
+  0%  {
+		padding-left: 0;
+	  }
+  100% {
+		  padding-left: 5%;
+	   }
+}
