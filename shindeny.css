@@ -25,6 +25,7 @@
 	animation-name: none !important;
 }
 .is-active>.sidebar-list-title{
+	padding-left: 5% !important;
 	color: rgb(120 120 120) !important;
 }
 .input-element{
@@ -35,24 +36,21 @@
 .custom-dropdown .custom-dropdown-control, 
 .custom-dropdown-control, 
 .advanced-tags-btn{
+	color: white;
 	border: 1px solid rgb(147 0 0) !important;
     background-color: rgb(60 2 0) !important;
 	box-shadow: 0 0 5px #bf0000;
 }
 .custom-dropdown:hover .custom-dropdown-control:hover, 
-.custom-dropdown-controlv:hover, 
-.advanced-tags-btn:hover
-	text-shadow: 0 0 10px #bf0000;
-	box-shadow: 0 0 10px #bf0000;
+.custom-dropdown-control:hover, 
+.advanced-tags-btn:hover, .input-element:hover{
+	text-shadow: 0 0 10px #bf0000 !important;
+	box-shadow: 0 0 10px #bf0000 !important;
 }
 .is-active:not(.sidebar-list-item){
 	border: 1px solid rgb(100 0 0) !important;
     background-color: rgb(38 2 0) !important;
 	box-shadow: 0 0 10px #440000;
-}
-
-.custom-dropdown-control{
-	color: white;
 }
 
 .css-1rxproo-option{
