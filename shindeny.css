@@ -1,6 +1,6 @@
 .hero-image-container{
-	background-position: top;
-	height: 45vh;
+	background-position: top !important;
+	height: 45vh !important;
 }
 .content-wrapper{
 	background-image: url(https://cdn.discordapp.com/attachments/392743635432505344/1103099926335983667/Akame_na_Shindena.gif);
@@ -14,27 +14,35 @@
 	border-radius: 20px 0 20px 0;
 	box-shadow: 0 0 10px #bf0000;
 }
+.css-26l3qy-menu{
+	
+}
 .view-content-wrapper{
 	box-shadow: 0 0 10px #bf0000;
 }
-
-.sidebar-list-item.is-active{
-	padding-left: 0%;
-	animation-name: none;
+.sidebar-list-item.is-active:hover{
+	padding-left: 0% !important;
+	animation-name: none !important;
 }
 .is-active>.sidebar-list-title{
 	color: rgb(120 120 120) !important;
 }
 .input-element{
 	border: 1px solid rgb(147 0 0) !important;
-    background-color: rgb(38 2 0);
-	box-shadow: 0 0 10px #bf0000;
+    background-color: #6e00007d !important;
+	box-shadow: 0 0 5px #bf0000;
 }
 .custom-dropdown .custom-dropdown-control, 
 .custom-dropdown-control, 
 .advanced-tags-btn{
 	border: 1px solid rgb(147 0 0) !important;
     background-color: rgb(60 2 0) !important;
+	box-shadow: 0 0 5px #bf0000;
+}
+.custom-dropdown:hover .custom-dropdown-control:hover, 
+.custom-dropdown-controlv:hover, 
+.advanced-tags-btn:hover
+	text-shadow: 0 0 10px #bf0000;
 	box-shadow: 0 0 10px #bf0000;
 }
 .is-active:not(.sidebar-list-item){
@@ -42,6 +50,18 @@
     background-color: rgb(38 2 0) !important;
 	box-shadow: 0 0 10px #440000;
 }
+
+
+.css-1rxproo-option{
+	border: 1px solid rgb(147 0 0) !important;
+    background-color: rgb(90 2 0) !important;
+	text-shadow: 0 0 5px #440000;
+}
+.css-vwv8pg-option{
+	border: 1px solid rgb(147 0 0) !important;
+    background-color: rgb(60 2 0) !important;
+}
+
 
 .sidebar-list-item:hover{
 	animation-name: list-title;
