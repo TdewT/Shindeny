@@ -36,7 +36,7 @@
 .custom-dropdown .custom-dropdown-control, 
 .custom-dropdown-control, 
 .advanced-tags-btn{
-	color: white;
+	color: red;
 	border: 1px solid rgb(147 0 0) !important;
     background-color: rgb(60 2 0) !important;
 	box-shadow: 0 0 5px #bf0000;
@@ -46,6 +46,13 @@
 .advanced-tags-btn:hover, .input-element:hover{
 	text-shadow: 0 0 10px #bf0000 !important;
 	box-shadow: 0 0 10px #bf0000 !important;
+}
+
+.custom-dropdown .custom-dropdown-control svg, .custom-dropdown-control svg{
+	color: rgb(180, 180, 180) !important;
+}
+.custom-dropdown .custom-dropdown-control:hover svg, .custom-dropdown-control:hover svg{
+	color: rgb(255, 255, 255) !important;
 }
 .is-active:not(.sidebar-list-item){
 	border: 1px solid rgb(100 0 0) !important;
