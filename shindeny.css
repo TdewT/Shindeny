@@ -6,6 +6,7 @@
 	background-image: url("https://raw.githubusercontent.com/TdewT/Shindeny/main/Akame%20na%20Shindena.gif");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .sidebar-wrapper{
 	border: 2px solid #ff000091;
