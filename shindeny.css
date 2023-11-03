@@ -78,7 +78,7 @@
 }
 .is-active:not(.sidebar-list-item){
 	border: 1px solid rgb(100 0 0) !important;
-    background-color: rgb(38 2 0) !important;
+	background-color: rgb(77 4 0 / 50%) !important;
 	box-shadow: 0 0 10px #440000;
 }
 
