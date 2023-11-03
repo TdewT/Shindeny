@@ -101,8 +101,13 @@
 	animation-duration: 0.4s;
 	padding-left: 5%;
 }
+:not(.is-active):hover>.sidebar-list-counter{
+	text-shadow: 0 -0 10px #aa0000;
+	color: #DB0000 !important;
+}
 :not(.is-active):hover>.sidebar-list-title{
 	text-shadow: 0 -0 10px #aa0000;
+	color: #DB0000 !important;
 }
 
 @keyframes list-title{
