@@ -4,6 +4,9 @@
 	background-color: rgba(208, 2, 27, 0.8) !important;
 	transition: opacity ease-in-out 200ms ;
 }
+.navigation-list-item:hover a.is-active {
+	border-bottom: 3px solid #eceaec !important;
+}
 .navigation-list-item .is-active{
 	color: white !important;
 	text-shadow: 0 0 10px white;
