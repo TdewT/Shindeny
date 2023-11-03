@@ -1,3 +1,24 @@
+/* Nawigacyjne Górne */
+.navigation-background{
+	opacity: 0.8;
+	background-color: rgba(208, 2, 27, 0.8) !important;
+	transition: opacity ease-in-out 200ms ;
+}
+.navigation-list-item .is-active{
+	color: white !important;
+	text-shadow: 0 0 10px white;
+}
+.jsx-2611382947{
+	color: #dddddd !important;
+}
+.jsx-2611382947:hover{
+	color: white !important;
+}
+.jsx-2611382947 a:hover{
+	text-shadow: 0 0 10px white;
+}
+
+
 .hero-image-container{
 	background-position: top !important;
 	height: 27vh !important;
