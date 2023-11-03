@@ -80,19 +80,18 @@
 	color: rgb(255, 255, 255) !important;
 }
 .is-active:not(.sidebar-list-item){
-	border: 1px solid rgb(100 0 0) !important;
 	background-color: rgb(77 4 0 / 50%) !important;
 	box-shadow: 0 0 10px #440000;
 }
 
 .css-1rxproo-option{
 	border: 1px solid rgb(147 0 0) !important;
-    background-color: rgb(90 2 0) !important;
+    	background-color: rgb(90 2 0) !important;
 	text-shadow: 0 0 5px #440000;
 }
 .css-vwv8pg-option{
 	border: 1px solid rgb(147 0 0) !important;
-    background-color: rgb(60 2 0) !important;
+    	background-color: rgb(60 2 0) !important;
 }
 
 
