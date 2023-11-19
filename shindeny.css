@@ -22,6 +22,20 @@
 }
 
 
+
+
+.cell-tile-link.jsx-4281668935{
+	border: 1px solid rgb(255 64 64) !important;
+}
+.jsx-4281668935 cell-tile-info{
+	background-color: rgb(57 0 0 / 80%) !important;
+}
+.cell-tile-info.jsx-4281668935:hover p.jsx-4281668935:hover{
+	color:red !important;
+}
+
+
+
 .hero-image-container{
 	background-position: top !important;
 	height: 27vh !important;
