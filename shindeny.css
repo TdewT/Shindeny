@@ -26,11 +26,11 @@
 
 
 .cell-tile-link.jsx-4281668935{
-	border: 1px solid rgb(255 64 64);
-	background-color: rgb(57 0 0 / 80%);
+	border: 1px solid rgb(255 64 64) !important;
+	background-color: rgb(57 0 0 / 80%) !important;
 }
 .cell-tile-info.jsx-4281668935:hover p.jsx-4281668935:hover{
-	color:red;
+	color:red !important;
 }
 
 
