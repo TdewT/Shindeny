@@ -15,9 +15,6 @@
 	border-radius: 5px !important;
 	box-shadow: 0 0 10px #bf0000;
 }
-.css-26l3qy-menu{
-	
-}
 .view-content-wrapper{
 	border-radius: 5px !important;
 	box-shadow: 0 0 10px #bf0000;
@@ -67,6 +64,24 @@
 	box-shadow: 0 0 10px #440000;
 }
 
+/*Animka do dropdowna*/
+.css-11unzgr::-webkit-Scrollbar{
+	display: none;
+}
+.css-11unzgr{
+	border-radius: 10px;
+    border: 1px solid rgb(147 0 0) !important;
+}
+.css-26l3qy-menu{
+	background-color: rgb(60 2 0) !important;
+	animation-name: dropdown;
+	animation-duration: 0.2s;
+	overflow: hidden;
+}
+
+
+
+
 /* Nawigacyjne Górne */
 .navigation-background{
 	opacity: 0.8;
@@ -88,9 +103,6 @@
 }
 .jsx-2611382947 a:hover{
 	text-shadow: 0 0 10px white;
-}
-.dropdown-list{
-
 }
 
 
@@ -172,4 +184,16 @@
   100% {
 		  padding-left: 5%;
 	   }
+}
+
+@keyframes dropdown{
+	0% {
+		height:0px;
+		width:0px;
+		opacity: 0;
+	}
+	
+	100% {
+		opacity: 1;
+	}
 }
