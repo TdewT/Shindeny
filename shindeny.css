@@ -1,64 +1,3 @@
-/* Nawigacyjne Górne */
-.navigation-background{
-	opacity: 0.8;
-	background-color: rgba(208, 2, 27, 0.8) !important;
-	transition: opacity ease-in-out 200ms ;
-}
-.navigation-list-item:hover a.is-active {
-	border-bottom: 3px solid #eceaec !important;
-}
-.navigation-list-item .is-active{
-	color: white !important;
-	text-shadow: 0 0 10px white;
-}
-.jsx-2611382947{
-	color: #dddddd !important;
-}
-.jsx-2611382947:hover{
-	color: white !important;
-}
-.jsx-2611382947 a:hover{
-	text-shadow: 0 0 10px white;
-}
-
-
-
-
-
-/*Cells*/
-.cell-tile-link.jsx-4281668935{
-	box-shadow: 0px 0px 4px 0.2px red !important;
-	border: 1px solid rgb(183 0 0) !important;
-}
-.cell-tile-info.jsx-4281668935{
-	background-color: rgb(57 0 0 / 80%) !important;
-}
-.cell-tile-info.jsx-4281668935:hover p.jsx-4281668935:hover{
-	color:red !important;
-}
-.dropdown-button.jsx-1468101596{
-	background-color: rgb(113 0 0 / 65%) !important;
-    border: 1px solid rgb(255 0 0 / 75) !important;
-    box-shadow: 0px 0px 3px 0.1px red !important;
-}
-.dropdown-button.jsx-1468101596:hover{
-	background-color: rgb(159 0 0 / 65%) !important;
-    box-shadow: 0px 0px 6px 0.1px red !important;
-}
-.dropdown-list.jsx-1468101596{
-
-    border: 1px solid red !important;
-    background: radial-gradient(#650000, #710000);
-    border-radius: 2px !important;
-    box-shadow: 0px 0px 4px 0.1px red !important;
-}
-.list-button.jsx-1468101596:hover{
-    background: red !important;
-}
-
-
-
-
 .hero-image-container{
 	background-position: top !important;
 	height: 27vh !important;
@@ -117,18 +56,91 @@
 	color: rgb(255, 255, 255) !important;
 }
 .is-active:not(.sidebar-list-item){
+	border: 1px solid rgb(147 0 0) !important;
 	background-color: rgb(77 4 0 / 50%) !important;
 	box-shadow: 0 0 10px #440000;
 }
 
+/* Nawigacyjne Górne */
+.navigation-background{
+	opacity: 0.8;
+	background-color: rgba(208, 2, 27, 0.8) !important;
+	transition: opacity ease-in-out 200ms ;
+}
+.navigation-list-item:hover a.is-active {
+	border-bottom: 3px solid #eceaec !important;
+}
+.navigation-list-item .is-active{
+	color: white !important;
+	text-shadow: 0 0 10px white;
+}
+.jsx-2611382947{
+	color: #dddddd !important;
+}
+.jsx-2611382947:hover{
+	color: white !important;
+}
+.jsx-2611382947 a:hover{
+	text-shadow: 0 0 10px white;
+}
+.dropdown-list{
+
+}
+
+
+/*Search bar*/
+.sidebar-accordion-icon {
+    color: #f500009c !important;
+}
+
+
+/*Cells*/
+.cell-tile-link.jsx-4281668935{
+	box-shadow: 0px 0px 4px 0.2px red !important;
+	border: 1px solid rgb(255 64 64) !important;
+}
+.cell-tile-info.jsx-4281668935{
+	background-color: rgb(57 0 0 / 80%) !important;
+}
+.cell-tile-info.jsx-4281668935:hover p.jsx-4281668935:hover{
+	color:red !important;
+}
+.dropdown-button.jsx-1468101596{
+	background-color: rgb(113 0 0 / 65%) !important;
+    border: 1px solid rgb(255 0 0 / 75) !important;
+    box-shadow: 0px 0px 3px 0.1px red !important;
+}
+.dropdown-button.jsx-1468101596:hover{
+	background-color: rgb(159 0 0 / 65%) !important;
+    box-shadow: 0px 0px 6px 0.1px red !important;
+}
+.dropdown-list.jsx-1468101596{
+
+    border: 1px solid red !important;
+    background: radial-gradient(#650000, #710000);
+    border-radius: 2px !important;
+    box-shadow: 0px 0px 4px 0.1px red !important;
+}
+.list-button.jsx-1468101596:hover{
+    background: red !important;
+}
+
+/*Edycja odc*/
+.modal-inner{
+    background-color: #350000a6;
+    border: 1px solid #ff0000;
+}
+
+
+
 .css-1rxproo-option{
 	border: 1px solid rgb(147 0 0) !important;
-    	background-color: rgb(90 2 0) !important;
+    background-color: rgb(90 2 0) !important;
 	text-shadow: 0 0 5px #440000;
 }
 .css-vwv8pg-option{
 	border: 1px solid rgb(147 0 0) !important;
-    	background-color: rgb(60 2 0) !important;
+    background-color: rgb(60 2 0) !important;
 }
 
 
@@ -145,6 +157,7 @@
 	text-shadow: 0 -0 10px #aa0000;
 	color: #DB0000 !important;
 }
+
 
 @keyframes list-title{
   0%  {
