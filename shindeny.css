@@ -46,13 +46,16 @@
     box-shadow: 0px 0px 6px 0.1px red !important;
 }
 .dropdown-list.jsx-1468101596{
+
+    border: 1px solid red !important;
     background: radial-gradient(#650000, #710000);
-    border-radius: 2px;
+    border-radius: 2px !important;
     box-shadow: 0px 0px 4px 0.1px red !important;
 }
 .list-button.jsx-1468101596:hover{
     background: red !important;
 }
+
 
 
 
