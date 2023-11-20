@@ -25,7 +25,9 @@
 
 
 
+/*Cells*/
 .cell-tile-link.jsx-4281668935{
+	box-shadow: 0px 0px 4px 0.2px red !important;
 	border: 1px solid rgb(255 64 64) !important;
 }
 .cell-tile-info.jsx-4281668935{
@@ -33,6 +35,23 @@
 }
 .cell-tile-info.jsx-4281668935:hover p.jsx-4281668935:hover{
 	color:red !important;
+}
+.dropdown-button.jsx-1468101596{
+	background-color: rgb(113 0 0 / 65%) !important;
+    border: 1px solid rgb(255 0 0 / 75) !important;
+    box-shadow: 0px 0px 3px 0.1px red !important;
+}
+.dropdown-button.jsx-1468101596:hover{
+	background-color: rgb(159 0 0 / 65%) !important;
+    box-shadow: 0px 0px 6px 0.1px red !important;
+}
+.dropdown-list.jsx-1468101596{
+    background: radial-gradient(#650000, #710000);
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px 0.1px red !important;
+}
+.list-button.jsx-1468101596:hover{
+    background: red !important;
 }
 
 
