@@ -65,14 +65,7 @@
 }
 
 /*Animka do dropdowna*/
-.css-11unzgr::-webkit-Scrollbar{
-	display: none;
-}
-.css-11unzgr{
-	border-radius: 10px;
-    border: 1px solid rgb(147 0 0) !important;
-}
-.css-26l3qy-menu{
+.custom-dropdown-control{
 	background-color: rgb(60 2 0) !important;
 	animation-name: dropdown;
 	animation-duration: 0.2s;
