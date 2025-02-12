@@ -65,7 +65,7 @@
 }
 
 /*Animka do dropdowna*/
-.custom-dropdown-control{
+.custom-dropdown-control div{
 	background-color: rgb(60 2 0) !important;
 	animation-name: dropdown;
 	animation-duration: 0.2s;
