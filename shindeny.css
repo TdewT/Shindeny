@@ -65,13 +65,14 @@
 }
 
 /*Animka do dropdowna*/
-.custom-dropdown-control div{
-	background-color: rgb(60 2 0) !important;
-	animation-name: dropdown;
-	animation-duration: 0.2s;
-	overflow: hidden;
+.custom-dropdown-control ~ [class*="css-"] {
+  background-color: rgb(60 2 0) !important;
+  animation: dropdown 0.3s ease-out forwards;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  display: block !important;
 }
-
 
 
 
