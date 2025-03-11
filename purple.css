@@ -450,6 +450,10 @@
 }
 
 /* Tag List Styling */
+.advanced-tag-wrapper {
+    overflow-x: hidden !important;
+}
+
 .advanced-tags-list {
     display: grid !important;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
