@@ -392,12 +392,155 @@
 /**************************************
  * MODAL STYLING
  **************************************/
+
+/* Modal Container and Background */
 .modal-inner {
-    background-color: rgba(30, 5, 40, 0.9) !important;
-    border: 2px solid rgba(156, 100, 226, 0.8) !important;
-    border-radius: 8px !important;
-    box-shadow: 0 0 20px rgba(106, 61, 139, 0.7) !important;
-    }
+    border-radius: 12px !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2) !important;
+    background: rgba(25, 28, 36, 0.95) !important;
+    backdrop-filter: blur(12px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    max-width: 800px !important;
+    width: 90% !important;
+}
+
+.modal-content {
+    padding: 20px !important;
+    max-height: 70vh !important;
+    overflow-y: auto !important;
+    scrollbar-width: thin !important;
+}
+
+/* Header Styling */
+.modal-header {
+    background: rgba(35, 38, 45, 0.8) !important;
+    padding: 15px 20px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.modal-header h4 {
+    margin: 0 !important;
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+    color: #eceaec !important;
+    letter-spacing: 0.5px !important;
+}
+
+.modal-close {
+    background: transparent !important;
+    border: none !important;
+    color: #aaa !important;
+    cursor: pointer !important;
+    transition: color 0.2s !important;
+}
+
+.modal-close:hover {
+    color: #fff !important;
+}
+
+/* Tab Navigation */
+.tab-header-list {
+    display: flex !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    margin: 0 0 20px !important;
+    padding: 0 !important;
+    overflow-x: auto !important;
+    scrollbar-width: none !important;
+}
+
+/* Tag List Styling */
+.advanced-tags-list {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
+    gap: 10px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.advanced-tag-item {
+    list-style: none !important;
+}
+
+.checkbox-label {
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer !important;
+    padding: 6px 10px !important;
+    border-radius: 6px !important;
+    transition: background 0.2s !important;
+}
+
+.checkbox-label:hover {
+    background: rgba(255, 255, 255, 0.05) !important;
+}
+
+.checkbox-input {
+    margin-right: 8px !important;
+    accent-color: #b91ffd !important;
+}
+
+.checkbox-label-text {
+    color: #ddd !important;
+    font-size: 14px !important;
+}
+
+/* Tooltip Styling */
+.__react_component_tooltip {
+    border-radius: 6px !important;
+    font-size: 13px !important;
+    line-height: 1.5 !important;
+    max-width: 300px !important;
+    opacity: 0.95 !important;
+    padding: 10px 12px !important;
+    background-color: rgba(45, 48, 56, 0.95) !important;
+    backdrop-filter: blur(4px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Scrollbar Customization */
+.modal-content::-webkit-scrollbar {
+    width: 6px !important;
+}
+
+.modal-content::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 3px !important;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3) !important;
+}
+
+.tab-title {
+    padding: 10px 16px !important;
+    color: #aaa !important;
+    cursor: pointer !important;
+    border-bottom: 2px solid transparent !important;
+    transition: all 0.2s ease !important;
+    white-space: nowrap !important;
+    list-style: none !important;
+}
+
+.tab-title.active {
+    color: white !important;
+    border: none !important;
+    border-bottom: 2px solid #eceaec !important;
+}
+
+.tab-title:hover:not(.active) {
+    color: #eceaec !important;
+    border-bottom: 2px solid rgba(236, 234, 236, 0.5) !important;
+}
+
 
 /**************************************
  * SELECT OPTIONS
