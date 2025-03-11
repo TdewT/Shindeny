@@ -3,6 +3,10 @@
     height: 27vh !important;
 }
 
+.footer-wrapper{
+    background-color: rgba(90, 50, 130, 0.8) !important;
+}
+
 .layout-wrapper {
     background-image: url("https://raw.githubusercontent.com/TdewT/Shindeny/main/Akame%20na%20Shindena.gif");
     background-repeat: no-repeat;
@@ -13,15 +17,15 @@
 
 /* Sidebar */
 .sidebar-wrapper {
-    border: 2px solid #ff000091;
-    background-color: rgba(12, 0, 0, 0.6);
+    border: 2px solid rgba(128, 79, 178, 0.7);
+    background-color: rgba(20, 0, 30, 0.6);
     padding: 15px;
     border-radius: 5px !important;
-    box-shadow: 0 0 10px #bf0000;
+    box-shadow: 0 0 10px #6a3d8b;
 }
 
 .MuiSlider-thumb {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(128, 79, 178) !important;
 }
 
 .sidebar-list-item.is-active:hover {
@@ -31,15 +35,15 @@
 
 .is-active > .sidebar-list-title {
     padding-left: 5% !important;
-    color: rgb(120 120 120) !important;
+    color: rgb(180, 160, 200) !important;
 }
 
 
 .input-element {
     border-radius: 5px !important;
-    border: 1px solid rgb(147 0 0) !important;
-    background-color: #6e00007d !important;
-    box-shadow: 0 0 5px #bf0000;
+    border: 1px solid rgba(128, 79, 178, 0.8) !important;
+    background-color: rgba(60, 30, 90, 0.5) !important;
+    box-shadow: 0 0 5px #6a3d8b;
 }
 
 .input-wrapper {
@@ -50,17 +54,17 @@
 .custom-dropdown-control,
 .advanced-tags-btn {
     border-radius: 5px !important;
-    color: red;
-    border: 1px solid rgb(147 0 0) !important;
-    background-color: rgb(60 2 0) !important;
-    box-shadow: 0 0 5px #bf0000;
+    color: #b39ddb;
+    border: 1px solid rgba(128, 79, 178, 0.8) !important;
+    background-color: rgba(40, 10, 60, 0.7) !important;
+    box-shadow: 0 0 5px #6a3d8b;
 }
 
 .custom-dropdown:hover .custom-dropdown-control:hover,
 .custom-dropdown-control:hover,
 .advanced-tags-btn:hover, .input-element:hover {
-    text-shadow: 0 0 10px #bf0000 !important;
-    box-shadow: 0 0 10px #bf0000 !important;
+    text-shadow: 0 0 10px #6a3d8b !important;
+    box-shadow: 0 0 10px #6a3d8b !important;
 }
 
 .custom-dropdown .custom-dropdown-control svg, .custom-dropdown-control svg {
@@ -72,14 +76,14 @@
 }
 
 .sidebar-group .is-active:not(.sidebar-list-item) {
-    border: 1px solid rgb(147 0 0) !important;
-    background-color: rgb(77 4 0 / 50%) !important;
-    box-shadow: 0 0 10px #440000;
+    border: 1px solid rgba(128, 79, 178, 0.8) !important;
+    background-color: rgba(50, 15, 70, 0.5) !important;
+    box-shadow: 0 0 10px rgba(50, 10, 68, 0.7);
 }
 
 /* Drop down Animation */
 .custom-dropdown-control ~ [class*="css-"] {
-    background-color: rgb(60 2 0) !important;
+    background-color: rgba(40, 10, 60, 0.7) !important;
     animation: dropdown 0.3s ease-out forwards;
     overflow: hidden;
     max-height: 0;
@@ -98,77 +102,77 @@
 /* Main view */
 .view-content-wrapper {
     border-radius: 5px !important;
-    box-shadow: 0 0 10px #bf0000 !important;
-    background-color: rgba(12, 0, 0, 0.6) !important;
-    border: 2px solid rgba(150, 0, 0, 0.91) !important;
+    box-shadow: 0 0 10px #6a3d8b !important;
+    background-color: rgba(20, 0, 30, 0.6) !important;
+    border: 2px solid rgba(128, 79, 178, 0.7) !important;
 }
 
 /* Main content buttons */
 .view-changer-button {
-    background-color: rgb(113 0 0 / 65%) !important;
-    border: 1px solid rgb(255 0 0 / 75) !important;
-    box-shadow: 0 0 3px 0.1px red !important;
+    background-color: rgba(80, 25, 120, 0.65) !important;
+    border: 1px solid rgba(128, 79, 178, 0.75) !important;
+    box-shadow: 0 0 3px 0.1px #9c64e2 !important;
 
     &:hover {
-        background-color: rgb(159 0 0 / 65%) !important;
-        box-shadow: 0 0 6px 0.1px red !important;
+        background-color: rgba(100, 30, 140, 0.7) !important;
+        box-shadow: 0 0 6px 0.1px #9c64e2 !important;
     }
 }
 
 /* Main content arrows */
 .table-header-arrow.is-active {
-    color: red !important;
+    color: #9c64e2 !important;
 }
 
 /* Table view main content wrapper */
 .listRowDesktop-wrapper {
-    background-color: rgb(120 0 0 / 15%) !important;
-    border-bottom: 1px solid red;
-    border-left: 1px solid red;
+    background-color: rgba(80, 20, 120, 0.15) !important;
+    border-bottom: 1px solid #9c64e2;
+    border-left: 1px solid #9c64e2;
 }
 
 .tableRowEmpty-wrapper {
-    background-color: rgb(120 0 0 / 15%) !important;
-    border-bottom: 1px solid red !important;
-    border-left: 1px solid red !important;
+    background-color: rgba(80, 20, 120, 0.15) !important;
+    border-bottom: 1px solid #9c64e2 !important;
+    border-left: 1px solid #9c64e2 !important;
 }
 
 .table-header {
-    border: 1px solid rgb(179, 0, 0) !important;
-    box-shadow: rgb(90 0 0 / 15%) 2px 3px 5px 1px;
+    border: 1px solid rgba(128, 79, 178, 0.8) !important;
+    box-shadow: rgba(70, 20, 90, 0.2) 2px 3px 5px 1px;
 }
 
 .table-header-label {
-    background-color: rgb(90 0 0 / 15%) !important;
+    background-color: rgba(70, 20, 90, 0.15) !important;
 
     &:hover {
-        box-shadow: 0 0 6px 0.1px red !important;
+        box-shadow: 0 0 6px 0.1px #9c64e2 !important;
     }
 }
 
 .listRowDesktop-content {
     &:hover {
-        background-color: rgb(159 0 0 / 65%) !important;
-        box-shadow: 0 0 6px 0.1px red !important;
+        background-color: rgba(100, 30, 140, 0.65) !important;
+        box-shadow: 0 0 6px 0.1px #9c64e2 !important;
     }
 }
 
 .listRowDesktop-item {
-    border-right: 1px solid red !important;
+    border-right: 1px solid #9c64e2 !important;
 }
 
 /* Title info for row */
 .rowTitleInfo-inner {
-    background-color: rgb(156 98 47 / 90%) !important;
-    box-shadow: rgb(255 119 0) 0 0 10px 4px;
+    background-color: rgba(100, 80, 156, 0.9) !important;
+    box-shadow: rgba(128, 79, 178, 0.8) 0 0 10px 4px;
     height: auto;
 }
 
 
 /* Nawigacyjne Górne */
 .navigation-background {
-    opacity: 0.8;
-    background-color: rgba(208, 2, 27, 0.8) !important;
+    opacity: 0.85;
+    background-color: rgba(90, 50, 130, 0.8) !important;
     transition: opacity ease-in-out 200ms;
 }
 
@@ -224,65 +228,64 @@
 
 /* Search bar */
 .sidebar-accordion-icon {
-    color: #f500009c !important;
+    color: rgba(128, 79, 178, 0.8) !important;
 }
 
 
 /* Cells */
 .cell-tile-link {
-    box-shadow: 0 0 4px 0.2px red !important;
-    border: 1px solid rgb(255 64 64) !important;
+    box-shadow: 0 0 4px 0.2px #9c64e2 !important;
+    border: 1px solid rgba(156, 100, 226, 0.8) !important;
 }
 
 .cell-tile-info {
-    background-color: rgb(57 0 0 / 80%) !important;
+    background-color: rgba(40, 10, 60, 0.8) !important;
 }
 
 .cell-tile-info:hover p:hover {
-    color: red !important;
+    color: #b39ddb !important;
 }
 
 .dropdown-button {
-    background-color: rgb(113 0 0 / 65%) !important;
-    border: 1px solid rgb(255 0 0 / 75) !important;
-    box-shadow: 0 0 3px 0.1px red !important;
+    background-color: rgba(80, 25, 120, 0.65) !important;
+    border: 1px solid rgba(128, 79, 178, 0.75) !important;
+    box-shadow: 0 0 3px 0.1px #9c64e2 !important;
 }
 
 .dropdown-button:hover {
-    background-color: rgb(159 0 0 / 65%) !important;
-    box-shadow: 0 0 6px 0.1px red !important;
+    background-color: rgba(100, 30, 140, 0.7) !important;
+    box-shadow: 0 0 6px 0.1px #9c64e2 !important;
 }
 
 .dropdown-list {
-
-    border: 1px solid red !important;
-    background: radial-gradient(#650000, #710000);
+    border: 1px solid #9c64e2 !important;
+    background: radial-gradient(#4a1a5a, #3a1545);
     border-radius: 2px !important;
-    box-shadow: 0 0 4px 0.1px red !important;
+    box-shadow: 0 0 4px 0.1px #9c64e2 !important;
 }
 
 .list-button:hover {
-    background: red !important;
+    background: #9c64e2 !important;
 }
 
 
 
 /* Episode edit */
 .modal-inner {
-    background-color: #350000a6;
-    border: 1px solid #ff0000;
+    background-color: rgba(30, 5, 40, 0.85);
+    border: 1px solid rgba(128, 79, 178, 0.8);
 }
 
 
 .css-1rxproo-option {
-    border: 1px solid rgb(147 0 0) !important;
-    background-color: rgb(90 2 0) !important;
-    text-shadow: 0 0 5px #440000;
+    border: 1px solid rgba(128, 79, 178, 0.8) !important;
+    background-color: rgba(60, 15, 80, 0.9) !important;
+    text-shadow: 0 0 5px rgba(50, 10, 68, 0.7);
 }
 
 .css-vwv8pg-option {
-    border: 1px solid rgb(147 0 0) !important;
-    background-color: rgb(60 2 0) !important;
+    border: 1px solid rgba(128, 79, 178, 0.8) !important;
+    background-color: rgba(40, 10, 60, 0.7) !important;
 }
 
 
@@ -293,13 +296,13 @@
 }
 
 :not(.is-active):hover > .sidebar-list-counter {
-    text-shadow: 0 -0 10px #aa0000;
-    color: #DB0000 !important;
+    text-shadow: 0 -0 10px rgba(128, 79, 178, 0.8);
+    color: #9c64e2 !important;
 }
 
 :not(.is-active):hover > .sidebar-list-title {
-    text-shadow: 0 -0 10px #aa0000;
-    color: #DB0000 !important;
+    text-shadow: 0 -0 10px rgba(128, 79, 178, 0.8);
+    color: #9c64e2 !important;
 }
 
 
