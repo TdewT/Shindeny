@@ -127,10 +127,16 @@
             animation-name: none !important;
         }
 
-        > .sidebar-list-title {
+        &.sidebar-list-title {
             padding-left: 5% !important;
             color: rgb(200, 180, 220) !important;
             font-weight: 500;
+
+
+        }
+        & a.is-active span{
+            color: white !important;
+            text-shadow: 0 0 10px rgba(207, 171, 255, 0.8);
         }
     }
 }
