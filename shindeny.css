@@ -100,8 +100,7 @@
 	}
 }
 .listRowDesktop-item{
-	border-right: 1px red !important;
-	background-color: rgb(159 0 0 / 15%) !important;
+	border-right: 1px solid red !important;
 }
 
 /*Animka do dropdowna*/
