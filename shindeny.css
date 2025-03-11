@@ -100,7 +100,7 @@
     border-left: 1px solid red;
 }
 
-.tableRowEmpty-wrapper{
+.tableRowEmpty-wrapper {
     background-color: rgb(120 0 0 / 15%) !important;
     border-bottom: 1px solid red !important;
     border-left: 1px solid red !important;
@@ -162,7 +162,9 @@
 }
 
 .navigation-list-item {
+    border-bottom: 0 solid #eceaec !important;
     color: white !important;
+    transition: border ease-in-out 100ms;
 
     .is-active {
         border: none !important;
@@ -173,16 +175,29 @@
     &:hover a.is-active {
         text-shadow: 0 0 10px white;
     }
+
     &:hover {
         border: none !important;
 
-        .is-active:not() {
+        &:not(:has(> .is-active), :has(> button)) {
             border-bottom: 3px solid #eceaec !important;
         }
 
         a {
             color: white !important;
             text-shadow: 0 0 10px white !important;
+        }
+    }
+}
+
+.navigation-button {
+    color: #d2d2d2 !important;
+
+    &:hover {
+        color: white !important;
+
+        svg {
+            filter: drop-shadow(0 0 10px white) !important;
         }
     }
 }
