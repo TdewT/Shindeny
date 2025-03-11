@@ -118,7 +118,13 @@
         animation-duration: 0.4s;
         padding-left: 5%;
         background-color: rgba(128, 79, 178, 0.15);
+
+        a > *{
+            text-shadow: 0 0 10px rgba(156, 100, 226, 0.8);
+            color: #b39ddb !important;
+        }
     }
+
 
     &.is-active {
         background-color: rgba(128, 79, 178, 0.25);
@@ -128,26 +134,10 @@
             animation-name: none !important;
         }
 
-        &.sidebar-list-title {
-            padding-left: 5% !important;
-            color: rgb(200, 180, 220) !important;
-            font-weight: 500;
-
-
-        }
-        & a.is-active span{
+        & a.is-active span {
             color: white !important;
             text-shadow: 0 0 10px rgba(207, 171, 255, 0.8);
         }
-    }
-}
-
-/* Hover Effects for Non-Active Items */
-:not(.is-active):hover {
-    > .sidebar-list-counter,
-    > .sidebar-list-title {
-        text-shadow: 0 0 10px rgba(156, 100, 226, 0.8);
-        color: #b39ddb !important;
     }
 }
 
@@ -272,7 +262,7 @@
     }
 }
 
-.statsPanel-item-count{
+.statsPanel-item-count {
     color: white !important;
 }
 
@@ -286,7 +276,7 @@
     border: 2px solid rgba(156, 100, 226, 0.7) !important;
 }
 
-.logicSettings-footer .button-wrapper .button{
+.logicSettings-footer .button-wrapper .button {
     color: white !important;
     background-color: rgba(80, 25, 120, 0.7) !important;
     border: 1px solid rgba(156, 100, 226, 0.75) !important;
@@ -608,18 +598,6 @@
             background-color: rgba(90, 40, 130, 0.9) !important;
             transform: translateX(3px);
         }
-    }
-}
-
-/**************************************
- * ANIMATIONS
- **************************************/
-@keyframes list-title {
-    0% {
-        padding-left: 0;
-    }
-    100% {
-        padding-left: 5%;
     }
 }
 
