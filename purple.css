@@ -401,14 +401,11 @@
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
     padding: 0 !important;
     overflow: hidden !important;
-    max-width: 800px !important;
-    width: 90% !important;
 }
 
 .modal-content {
     padding: 20px !important;
-    max-height: 70vh !important;
-    overflow-y: auto !important;
+    overflow-y: hidden !important;
     scrollbar-width: thin !important;
 }
 
@@ -493,7 +490,6 @@
     border-radius: 6px !important;
     font-size: 13px !important;
     line-height: 1.5 !important;
-    max-width: 300px !important;
     opacity: 0.95 !important;
     padding: 10px 12px !important;
     background-color: rgba(45, 48, 56, 0.95) !important;
