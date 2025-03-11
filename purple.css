@@ -64,8 +64,11 @@
         }
 
         &:not(:has(> .is-active), :has(> button)) {
-            border-bottom: 3px solid #ede5ff !important;
             text-shadow: 0 0 12px rgba(255, 255, 255, 0.8) !important;
+
+            @media screen and (min-width: 1024px) {
+                border-bottom: 3px solid #ede5ff !important;
+            }
         }
     }
 }
@@ -83,6 +86,10 @@
             filter: drop-shadow(0 0 10px white) !important;
         }
     }
+}
+
+.navigation-inner {
+    background-color: rgb(80 2 208) !important;
 }
 
 /**************************************
@@ -119,7 +126,7 @@
         padding-left: 5%;
         background-color: rgba(128, 79, 178, 0.15);
 
-        a > *{
+        a > * {
             text-shadow: 0 0 10px rgba(156, 100, 226, 0.8);
             color: #b39ddb !important;
         }
