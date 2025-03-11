@@ -18,6 +18,7 @@
 .view-content-wrapper{
 	border-radius: 5px !important;
 	box-shadow: 0 0 10px #bf0000;
+	background-color: rgba(12, 0, 0, 0.6);
 }
 .sidebar-list-item.is-active:hover{
 	padding-left: 0% !important;
@@ -62,6 +63,18 @@
 	border: 1px solid rgb(147 0 0) !important;
 	background-color: rgb(77 4 0 / 50%) !important;
 	box-shadow: 0 0 10px #440000;
+}
+
+/*Main content buttons*/
+.view-changer-button{
+	background-color: rgb(113 0 0 / 65%) !important;
+    	border: 1px solid rgb(255 0 0 / 75) !important;
+    	box-shadow: 0px 0px 3px 0.1px red !important;
+
+	&:hover{
+		background-color: rgb(159 0 0 / 65%) !important;
+	    	box-shadow: 0px 0px 6px 0.1px red !important;
+	}
 }
 
 /*Animka do dropdowna*/
