@@ -363,7 +363,7 @@
     overflow: hidden;
 
     &:hover {
-        transform: translateY(-3px) scale(1.1);
+        transform: translateY(-3px) scale(1.5);
         box-shadow: 0 0 8px rgba(156, 100, 226, 0.7) !important;
     }
 }
