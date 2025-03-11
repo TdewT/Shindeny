@@ -91,10 +91,10 @@
 }
 .table-header{
 	background-color: rgb(50 0 0 / 35%) !important;
+    	border-right: .3px solid rgb(255 0 0 / 75) !important;
 }
 .table-header-label{
 	background-color: rgb(50 0 0 / 35%) !important;
-    	border-right: .3px solid rgb(255 0 0 / 75) !important;
 }
 
 /*Animka do dropdowna*/
