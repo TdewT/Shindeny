@@ -10,6 +10,8 @@
     background-attachment: fixed;
 }
 
+
+/* Sidebar */
 .sidebar-wrapper {
     border: 2px solid #ff000091;
     background-color: rgba(12, 0, 0, 0.6);
@@ -18,10 +20,8 @@
     box-shadow: 0 0 10px #bf0000;
 }
 
-.view-content-wrapper {
-    border-radius: 5px !important;
-    box-shadow: 0 0 10px #bf0000 !important;
-    background-color: rgba(12, 0, 0, 0.6) !important;
+.MuiSlider-thumb {
+    background-color: rgb(255, 0, 0);
 }
 
 .sidebar-list-item.is-active:hover {
@@ -33,6 +33,7 @@
     padding-left: 5% !important;
     color: rgb(120 120 120) !important;
 }
+
 
 .input-element {
     border-radius: 5px !important;
@@ -76,7 +77,33 @@
     box-shadow: 0 0 10px #440000;
 }
 
-/*Main content buttons*/
+/* Drop down Animation */
+.custom-dropdown-control ~ [class*="css-"] {
+    background-color: rgb(60 2 0) !important;
+    animation: dropdown 0.3s ease-out forwards;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    display: block !important;
+}
+
+@keyframes dropdown {
+    to {
+        opacity: 1;
+        max-height: 500px;
+    }
+}
+
+
+/* Main view */
+.view-content-wrapper {
+    border-radius: 5px !important;
+    box-shadow: 0 0 10px #bf0000 !important;
+    background-color: rgba(12, 0, 0, 0.6) !important;
+    border: 2px solid rgba(150, 0, 0, 0.91) !important;
+}
+
+/* Main content buttons */
 .view-changer-button {
     background-color: rgb(113 0 0 / 65%) !important;
     border: 1px solid rgb(255 0 0 / 75) !important;
@@ -88,12 +115,12 @@
     }
 }
 
-/*Main content arrows*/
+/* Main content arrows */
 .table-header-arrow.is-active {
     color: red !important;
 }
 
-/*Table view main content wrapper*/
+/* Table view main content wrapper */
 .listRowDesktop-wrapper {
     background-color: rgb(120 0 0 / 15%) !important;
     border-bottom: 1px solid red;
@@ -130,27 +157,11 @@
     border-right: 1px solid red !important;
 }
 
-/*Title info for row*/
+/* Title info for row */
 .rowTitleInfo-inner {
     background-color: rgb(156 98 47 / 90%) !important;
     box-shadow: rgb(255 119 0) 0 0 10px 4px;
-}
-
-/*Animka do drop downa*/
-.custom-dropdown-control ~ [class*="css-"] {
-    background-color: rgb(60 2 0) !important;
-    animation: dropdown 0.3s ease-out forwards;
-    overflow: hidden;
-    max-height: 0;
-    opacity: 0;
-    display: block !important;
-}
-
-@keyframes dropdown {
-    to {
-        opacity: 1;
-        max-height: 500px;
-    }
+    height: auto;
 }
 
 
@@ -211,13 +222,13 @@
 }
 
 
-/*Search bar*/
+/* Search bar */
 .sidebar-accordion-icon {
     color: #f500009c !important;
 }
 
 
-/*Cells*/
+/* Cells */
 .cell-tile-link {
     box-shadow: 0 0 4px 0.2px red !important;
     border: 1px solid rgb(255 64 64) !important;
@@ -254,7 +265,9 @@
     background: red !important;
 }
 
-/*Edycja odc*/
+
+
+/* Episode edit */
 .modal-inner {
     background-color: #350000a6;
     border: 1px solid #ff0000;
