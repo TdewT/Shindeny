@@ -59,7 +59,7 @@
 .custom-dropdown .custom-dropdown-control:hover svg, .custom-dropdown-control:hover svg{
 	color: rgb(255, 255, 255) !important;
 }
-.is-active:not(.sidebar-list-item){
+.sidebar-group .is-active:not(.sidebar-list-item){
 	border: 1px solid rgb(147 0 0) !important;
 	background-color: rgb(77 4 0 / 50%) !important;
 	box-shadow: 0 0 10px #440000;
@@ -76,9 +76,13 @@
 	    	box-shadow: 0px 0px 6px 0.1px red !important;
 	}
 }
+/*Main content arrows*/
+.table-header-arrow.is-active{
+	color: red !important;
+}
 
 /*Table view main content wrapper*/
-..listRowDesktop-wrapper{
+.listRowDesktop-wrapper{
 	background-color: rgb(120 0 0 / 15%) !important;
 }
 .table-header{
@@ -127,20 +131,30 @@
 	background-color: rgba(208, 2, 27, 0.8) !important;
 	transition: opacity ease-in-out 200ms ;
 }
-.navigation-list-item:hover a.is-active {
-	border: none !important;
-	border-bottom: 3px solid #eceaec !important;
-	text-shadow: 0 0 10px white;
-}
-.navigation-list-item .is-active{
-	color: white !important;
-	text-shadow: 0 0 10px white;
+.navigation-list-item{
+	.is-active{
+		border: none !important;
+		border-bottom: 3px solid #eceaec !important;
+		color: white !important;
+		text-shadow: 0 0 10px white;
+	}
+	&:hover a.is-active{
+		text-shadow: 0 0 10px white;
+	}
+	&:hover{
+		border: none !important;
+		border-bottom: 3px solid #eceaec !important;
+		a{
+			text-shadow: 0 0 10px white;
+		}
+	}
 }
 .navigation-background{
 	color: #dddddd !important;
-}
-.navigation-background:hover{
-	color: white !important;
+
+	&:hover{
+		color: white !important;
+	}
 }
 
 
@@ -158,7 +172,7 @@
 .cell-tile-info{
 	background-color: rgb(57 0 0 / 80%) !important;
 }
-.cell-tile-info:hover > p:hover{
+.cell-tile-info:hover p:hover{
 	color:red !important;
 }
 .dropdown-button{
