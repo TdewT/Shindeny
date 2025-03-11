@@ -272,6 +272,16 @@
 }
 
 /**************************************
+ * SETTINGS AREA
+ **************************************/
+.settingsContent-wrapper {
+    border-radius: 8px !important;
+    box-shadow: 0 0 20px rgba(106, 61, 139, 0.6) !important;
+    background-color: rgba(20, 0, 30, 0.7) !important;
+    border: 2px solid rgba(156, 100, 226, 0.7) !important;
+}
+
+/**************************************
  * TABLE STYLING
  **************************************/
 .table-header-arrow.is-active {
