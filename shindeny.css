@@ -100,6 +100,12 @@
     border-left: 1px solid red;
 }
 
+.tableRowEmpty-wrapper{
+    background-color: rgb(120 0 0 / 15%) !important;
+    border-bottom: 1px solid red !important;
+    border-left: 1px solid red !important;
+}
+
 .table-header {
     border: 1px solid rgb(179, 0, 0) !important;
     box-shadow: rgb(90 0 0 / 15%) 2px 3px 5px 1px;
@@ -167,10 +173,12 @@
     &:hover a.is-active {
         text-shadow: 0 0 10px white;
     }
-
     &:hover {
         border: none !important;
-        border-bottom: 3px solid #eceaec !important;
+
+        .is-active:not() {
+            border-bottom: 3px solid #eceaec !important;
+        }
 
         a {
             color: white !important;
