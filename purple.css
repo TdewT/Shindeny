@@ -361,7 +361,7 @@
  * CELLS AND TILES
  **************************************/
 .cell-tile-link {
-    box-shadow: 0 0 6px rgba(156, 100, 226, 0.5) !important;
+    box-shadow: 0 0 3px rgba(156, 100, 226, 0.5) !important;
     border: 1px solid rgba(156, 100, 226, 0.7) !important;
     transition: all 0.3s ease;
     border-radius: 6px;
@@ -369,7 +369,7 @@
 
     &:hover {
         transform: translateY(-3px);
-        box-shadow: 0 5px 15px rgba(156, 100, 226, 0.7) !important;
+        box-shadow: 0 0 8px rgba(156, 100, 226, 0.7) !important;
     }
 }
 
