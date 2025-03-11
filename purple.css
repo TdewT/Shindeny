@@ -2,7 +2,7 @@
  * MAIN LAYOUT ELEMENTS
  **************************************/
 .layout-wrapper {
-    background-image: url("elaina-wandering-witch.jpg");
+    background-image: url("elaina-wandering-witch.jpg") !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -12,6 +12,7 @@
     background-position: center top !important;
     height: 30vh !important;
     transition: height 0.3s ease;
+    background-image: url("Katanagatari na Shindena.jpg") !important;
 }
 
 .footer-wrapper {
