@@ -132,13 +132,13 @@
 	color: white !important;
 	text-shadow: 0 0 10px white;
 }
-.jsx-2611382947{
+.navigation-background{
 	color: #dddddd !important;
 }
-.jsx-2611382947:hover{
+.navigation-background:hover{
 	color: white !important;
 }
-.jsx-2611382947 a:hover{
+.navigation-background > a:hover{
 	text-shadow: 0 0 10px white;
 }
 
@@ -150,33 +150,33 @@
 
 
 /*Cells*/
-.cell-tile-link.jsx-4281668935{
+.cell-tile-link{
 	box-shadow: 0px 0px 4px 0.2px red !important;
 	border: 1px solid rgb(255 64 64) !important;
 }
-.cell-tile-info.jsx-4281668935{
+.cell-tile-info{
 	background-color: rgb(57 0 0 / 80%) !important;
 }
-.cell-tile-info.jsx-4281668935:hover p.jsx-4281668935:hover{
+.cell-tile-info:hover > p:hover{
 	color:red !important;
 }
-.dropdown-button.jsx-1468101596{
+.dropdown-button{
 	background-color: rgb(113 0 0 / 65%) !important;
     border: 1px solid rgb(255 0 0 / 75) !important;
     box-shadow: 0px 0px 3px 0.1px red !important;
 }
-.dropdown-button.jsx-1468101596:hover{
+.dropdown-button:hover{
 	background-color: rgb(159 0 0 / 65%) !important;
     box-shadow: 0px 0px 6px 0.1px red !important;
 }
-.dropdown-list.jsx-1468101596{
+.dropdown-list{
 
     border: 1px solid red !important;
     background: radial-gradient(#650000, #710000);
     border-radius: 2px !important;
     box-shadow: 0px 0px 4px 0.1px red !important;
 }
-.list-button.jsx-1468101596:hover{
+.list-button:hover{
     background: red !important;
 }
 
