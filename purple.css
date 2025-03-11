@@ -520,18 +520,20 @@
 }
 
 .tab-title {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
     padding: 10px 16px !important;
     color: #aaa !important;
     cursor: pointer !important;
     border-bottom: 2px solid transparent !important;
-    transition: all 0.2s ease !important;
+    transition: all 100ms ease !important;
     white-space: nowrap !important;
     list-style: none !important;
 }
 
 .tab-title.active {
     color: white !important;
-    border: none !important;
     border-bottom: 2px solid #eceaec !important;
 }
 
