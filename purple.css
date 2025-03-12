@@ -459,7 +459,7 @@
     box-shadow: 0 0 10px rgba(156, 100, 226, 0.6) !important;
 
     li button{
-        transition: all 0.2s ease;
+        transition: all 0.2s ease !important;
     }
 }
 
