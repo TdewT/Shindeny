@@ -88,8 +88,13 @@
     }
 }
 
-.navigation-inner {
-    background-color: rgb(80 2 208) !important;
+.navigation-inner:hover {
+    transition: ease 300ms;
+    background-color: rgb(96 39 191) !important;
+
+    @media screen and (max-width: 1024px) {
+        background-color: rgb(80 2 208) !important;
+    }
 }
 
 /**************************************
