@@ -413,17 +413,19 @@
 /**************************************
  * CELLS AND TILES
  **************************************/
+.cell-tile-wrapper {
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0 8px rgba(156, 100, 226, 0.7) !important;
+    }
+}
+
 .cell-tile-link {
     box-shadow: 0 0 3px rgba(156, 100, 226, 0.5) !important;
     border: 1px solid rgba(156, 100, 226, 0.7) !important;
     transition: all 0.3s ease;
     border-radius: 6px;
     overflow: hidden;
-
-    &:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 0 8px rgba(156, 100, 226, 0.7) !important;
-    }
 }
 
 .cell-tile-info {
@@ -459,7 +461,7 @@
     border-radius: 6px !important;
     box-shadow: 0 0 10px rgba(156, 100, 226, 0.6) !important;
 
-    li button{
+    li button {
         transition: all 0.2s ease !important;
     }
 }
