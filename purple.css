@@ -312,6 +312,7 @@
 **************************************/
 /* Back to Top Button */
 .back-to-top-btn {
+    z-index: 9999 !important;
     background-color: rgba(80, 25, 120, 0.85) !important;
     border: 2px solid rgba(156, 100, 226, 0.8) !important;
     box-shadow: 0 0 10px rgba(106, 61, 139, 0.6) !important;
