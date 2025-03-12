@@ -1,4 +1,4 @@
-<div style="overflow: hidden; height: 230px">
+<div style="overflow: hidden; height: 180px">
   <img src="./Katanagatari%20na%20Shindena.jpg" alt="Togame + Shichika">
 </div>
 
