@@ -420,7 +420,7 @@
     overflow: hidden;
 
     &:hover {
-        transform: translateY(-3px);
+        transform: translateY(-5px);
         box-shadow: 0 0 8px rgba(156, 100, 226, 0.7) !important;
     }
 }
