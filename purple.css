@@ -308,6 +308,46 @@
 }
 
 /**************************************
+* SCROLL TO TOP BUTTON
+**************************************/
+/* Back to Top Button */
+.back-to-top-btn {
+    background-color: rgba(80, 25, 120, 0.85) !important;
+    border: 2px solid rgba(156, 100, 226, 0.8) !important;
+    box-shadow: 0 0 10px rgba(106, 61, 139, 0.6) !important;
+    color: #d4c0ff !important;
+    opacity: 0.9 !important;
+    transition: all 0.25s ease;
+    animation: fadeIn 0.3s ease-in-out forwards;
+
+    svg {
+        transition: transform 0.3s ease;
+    }
+
+    &:hover {
+        background-color: rgba(100, 30, 140, 0.9) !important;
+
+        svg {
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));
+        }
+    }
+}
+
+/* Scrolling Animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        bottom: 80px;
+    }
+    100% {
+        opacity: 0.9;
+        bottom: 15px;
+    }
+}
+
+
+/**************************************
  * TABLE STYLING
  **************************************/
 .table-header-arrow.is-active {
