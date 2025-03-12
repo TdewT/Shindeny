@@ -185,7 +185,7 @@
     background-color: rgba(40, 20, 70, 0.5) !important;
     box-shadow: 0 0 5px rgba(106, 61, 139, 0.5);
     transition: all 0.2s ease;
-    color: #e0d0ff !important;
+    color: white !important;
 
     &:hover, &:focus {
         text-shadow: 0 0 10px rgba(156, 100, 226, 0.8) !important;
@@ -224,6 +224,10 @@
     svg {
         color: rgb(200, 200, 200) !important;
         transition: all 0.2s ease;
+    }
+
+    > div > div{
+        color: white !important;
     }
 }
 
