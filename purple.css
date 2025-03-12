@@ -283,7 +283,7 @@
     border: 2px solid rgba(156, 100, 226, 0.7) !important;
 }
 
-.logicSettings-footer .button-wrapper .button {
+.button-wrapper .button {
     color: white !important;
     background-color: rgba(80, 25, 120, 0.7) !important;
     border: 1px solid rgba(156, 100, 226, 0.75) !important;
