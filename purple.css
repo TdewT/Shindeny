@@ -418,9 +418,10 @@
     &:hover {
         transform: translateY(-5px);
         box-shadow: 0 0 8px rgba(156, 100, 226, 0.7) !important;
-    }
-    .cell-tile-background{
-        transform: scale(1.1);
+
+        .cell-tile-background{
+            transform: scale(1.1) !important;
+        }
     }
 }
 
