@@ -107,7 +107,7 @@
     border: 2px solid rgba(128, 79, 178, 0.7);
     background-color: rgba(20, 0, 30, 0.7);
     padding: 18px;
-    border-radius: 8px !important;
+    border-radius: 25px !important;
     box-shadow: 0 0 15px rgba(106, 61, 139, 0.6);
 }
 
@@ -305,7 +305,7 @@
  * MAIN CONTENT AREA
  **************************************/
 .view-content-wrapper {
-    border-radius: 8px !important;
+    border-radius: 25px 0 0 !important;
     box-shadow: 0 0 20px rgba(106, 61, 139, 0.6) !important;
     background-color: rgba(20, 0, 30, 0.7) !important;
     border: 2px solid rgba(156, 100, 226, 0.7) !important;
