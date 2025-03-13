@@ -191,7 +191,6 @@
 
         &:hover {
             color: #ffffff !important;
-            box-shadow: 0 0 5px rgba(106, 61, 139, 0.5);
 
             > svg {
                 filter: drop-shadow(0 0 5px white) !important;
