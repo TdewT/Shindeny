@@ -10,8 +10,6 @@
 
 .hero-image-container {
     background-position: center top !important;
-    height: 30vh !important;
-    transition: height 0.3s ease;
     background-image: url("Katanagatari na Shindena.jpg") !important;
 }
 
