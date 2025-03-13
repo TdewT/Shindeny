@@ -164,6 +164,17 @@
     box-shadow: 0 0 10px rgba(50, 10, 68, 0.7);
 }
 
+/* Clear button */
+.clearAll-btn {
+
+    @media screen and (min-width: 1024px) {
+        &:hover {
+            color: #e6b2ff !important;
+            text-shadow: 0 0 2px #d990fc !important;
+        }
+    }
+}
+
 /* Slider Elements */
 .MuiSlider-thumb {
     background-color: rgb(156, 100, 226) !important;
