@@ -238,7 +238,6 @@
 /* Dropdown Controls */
 .custom-dropdown-control,
 .advanced-tags-btn {
-    border-radius: 6px !important;
     color: #c5b0e5;
     border: 1px solid rgba(156, 100, 226, 0.8) !important;
     background-color: rgba(40, 10, 60, 0.7) !important;
