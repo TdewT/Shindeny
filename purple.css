@@ -113,17 +113,6 @@
     box-shadow: 0 0 15px rgba(106, 61, 139, 0.6);
 }
 
-/* Slider Elements */
-.MuiSlider-thumb {
-    background-color: rgb(156, 100, 226) !important;
-    box-shadow: 0 0 8px rgba(156, 100, 226, 0.8) !important;
-}
-
-.MuiSlider-thumb {
-
-    background-color: rgba(156, 100, 226, 0.7) !important;
-}
-
 /* Sidebar List Items */
 .sidebar-list-item {
     transition: all 0.3s ease;
@@ -175,6 +164,18 @@
     box-shadow: 0 0 10px rgba(50, 10, 68, 0.7);
 }
 
+/* Slider Elements */
+.MuiSlider-thumb {
+    background-color: rgb(156, 100, 226) !important;
+    box-shadow: 0 0 8px rgba(156, 100, 226, 0.8) !important;
+}
+
+.MuiSlider-thumb {
+
+    background-color: rgba(156, 100, 226, 0.7) !important;
+}
+
+/* Premiere dates for MuiSlider */
 .premiere-dates-wrapper {
     color: #c5b0e5 !important;
     border: 1px solid rgba(156, 100, 226, 0.8) !important;
