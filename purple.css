@@ -275,8 +275,7 @@
     /* Check by css class  */
 .custom-async-dropdown:has(.css-26l3qy-menu) .custom-dropdown-control,
     /* Check if the dropdown div exists */
-.custom-async-dropdown:has(:nth-child(3)) .custom-dropdown-control
-{
+.custom-async-dropdown:has(:nth-child(3)) .custom-dropdown-control {
     text-shadow: 0 0 10px rgba(156, 100, 226, 0.8) !important;
     box-shadow: 0 0 12px rgba(156, 100, 226, 0.7) !important;
     border-color: rgba(180, 130, 250, 0.9) !important;
