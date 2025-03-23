@@ -131,16 +131,18 @@
 
 
     &.is-active {
-        background-color: rgba(128, 79, 178, 0.25);
+        border-bottom: 1px solid rgba(156, 100, 226, 0.8) !important;
+        background-image: linear-gradient(rgba(158, 64, 255, 0), rgba(161, 90, 255, 0.15));
+        padding-left: 5%;
+        border-radius: 12px 0 !important;
+        transition: background-color .4s ease;
 
-        &:hover {
-            padding-left: 0 !important;
-            animation-name: none !important;
+        & > a {
+            font-weight: 500;
         }
 
-        & a.is-active span {
-            color: white !important;
-            text-shadow: 0 0 10px rgba(207, 171, 255, 0.8);
+        & span {
+            color: #cea0ff !important;
         }
     }
 }
@@ -157,9 +159,8 @@
 
 /* Active Sidebar Groups */
 .sidebar-group .is-active:not(.sidebar-list-item) {
-    border: 1px solid rgba(156, 100, 226, 0.8) !important;
-    background-color: rgba(50, 15, 70, 0.5) !important;
-    box-shadow: 0 0 10px rgba(50, 10, 68, 0.7);
+    border: none !important;
+    background-color: transparent !important;
 }
 
 /* Clear button */
