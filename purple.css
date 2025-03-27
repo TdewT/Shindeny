@@ -165,12 +165,9 @@
 
 /* Clear button */
 .clearAll-btn {
-
-    @media screen and (min-width: 1024px) {
-        &:hover {
-            color: #e6b2ff !important;
-            text-shadow: 0 0 2px #d990fc !important;
-        }
+    &:hover {
+        color: #e6b2ff !important;
+        text-shadow: 0 0 2px #d990fc !important;
     }
 }
 
