@@ -366,6 +366,16 @@
     border: 2px solid rgba(156, 100, 226, 0.7) !important;
 }
 
+/* Control buttons for main content */
+.view-content-header-button {
+    &:hover {
+        &, * {
+            color: #e6b2ff !important;
+            text-shadow: 0 0 4px #d990fc7d !important;
+        }
+    }
+}
+
 /* View Changer Buttons */
 .view-changer-button {
     background-color: rgba(80, 25, 120, 0.7) !important;
