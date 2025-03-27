@@ -207,6 +207,14 @@
     }
 }
 
+/* Text below slider */
+
+.premiereManualChanger-cta:hover {
+    transition: none;
+    color: #e6b2ff !important;
+    text-shadow: 0 0 2px #d990fc !important;
+}
+
 /**************************************
  * FORM ELEMENTS
  **************************************/
