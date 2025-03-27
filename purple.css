@@ -167,7 +167,7 @@
 .clearAll-btn {
     &:hover {
         color: #e6b2ff !important;
-        text-shadow: 0 0 2px #d990fc !important;
+        text-shadow: 0 0 4px #d990fc7d !important;
     }
 }
 
@@ -262,7 +262,7 @@
 .premiereManualChanger-cta:hover {
     transition: none;
     color: #e6b2ff !important;
-    text-shadow: 0 0 2px #d990fc !important;
+    text-shadow: 0 0 4px #d990fc7d !important;
 }
 
 /**************************************
