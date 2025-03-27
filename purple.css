@@ -253,9 +253,12 @@
         }
 
         /* Hover effect for label showing corresponding year */
-        &:hover,
-        &.Mui-focusVisible {
-            box-shadow: 0 0 0 6px rgba(156, 100, 226, 0.2) !important;
+        /* When slider is moved by user */
+        &.MuiSlider-active {
+            transform: rotate(0deg) !important;
+        }
+        /* Overwrite style when cursor is over the thumb */
+        &:hover {
             transform: scale(1.2) rotate(45deg) !important;
         }
 
