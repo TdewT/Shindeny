@@ -231,6 +231,7 @@
 
     /* Thumb + label/text elements */
     & .MuiSlider-thumb {
+        z-index: 9999;
         background-color: rgba(156, 100, 226, 0.9) !important;
         border: 2px solid rgba(255, 255, 255, 0.3);
         box-shadow: 0 0 12px rgba(156, 100, 226, 0.5) !important;
