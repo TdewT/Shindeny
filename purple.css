@@ -177,6 +177,7 @@
 .MuiSlider-root {
     color: rgba(156, 100, 226, 0.9) !important;
 
+    /* Styling for track element */
     & .MuiSlider-track {
         background-image: linear-gradient(
                 to right,
@@ -185,50 +186,46 @@
         ) !important;
     }
 
+    /* Thumb + label/text elements */
     & .MuiSlider-thumb {
         background-color: rgba(156, 100, 226, 0.9) !important;
         border: 2px solid rgba(255, 255, 255, 0.3);
         box-shadow: 0 0 12px rgba(156, 100, 226, 0.5) !important;
         transition: all 0.3s ease;
 
+        /* Label showing corresponding year */
+        & > * > * {
+            background: linear-gradient(
+                    to bottom right,
+                    rgba(20, 0, 30, 0.95),
+                    rgba(50, 20, 70, 0.95)
+            ) !important;
+            border: 1px solid rgba(156, 100, 226, 0.6);
+            padding: 18px 18px;
+
+            * {
+                background: transparent;
+            }
+        }
+
+        /* Hover effect for label showing corresponding year */
         &:hover,
         &.Mui-focusVisible {
             box-shadow: 0 0 0 6px rgba(156, 100, 226, 0.2) !important;
             transform: scale(1.2) rotate(45deg) !important;
-
-
-            & > * > * {
-                background: linear-gradient(
-                        to bottom right,
-                        rgba(20, 0, 30, 0.95),
-                        rgba(50, 20, 70, 0.95)
-                ) !important;
-                border: 1px solid rgba(156, 100, 226, 0.6);
-                padding: 18px 18px;
-
-                * {
-                    background: transparent;
-                }
-            }
         }
 
-        & .MuiSlider-valueLabel {
-            & span span {
-                color: #d9b1ff !important;
-                text-shadow: 0 0 6px rgba(156, 100, 226, 0.5);
-                transform: rotate(-44deg) !important;
-            }
-
-            &:before {
-                border-bottom-color: rgba(156, 100, 226, 0.6) !important;
-            }
+        /* Text spans for label showing corresponding year */
+        & .MuiSlider-valueLabel span span {
+            color: #d9b1ff !important;
+            text-shadow: 0 0 6px rgba(156, 100, 226, 0.5);
+            transform: rotate(-44deg) !important;
         }
     }
 
-    &:hover {
-        & .MuiSlider-track {
-            box-shadow: 0 0 12px rgba(156, 100, 226, 0.6);
-        }
+    /* Hover effect for main track */
+    &:hover .MuiSlider-track {
+        box-shadow: 0 0 12px rgba(156, 100, 226, 0.6);
     }
 }
 
