@@ -624,8 +624,14 @@
     transition: background 0.2s !important;
 }
 
-.checkbox-label:hover {
-    background: rgba(255, 255, 255, 0.05) !important;
+.checkbox-label {
+    &::before, &::after {
+        margin-left: 10px !important;
+    }
+
+    &:hover {
+        background: rgb(150 94 208 / 30%) !important;
+    }
 }
 
 .checkbox-input {
