@@ -785,8 +785,10 @@
 
 /* Link hover */
 @media screen and (min-width: 1024px) {
-    .title-edit-modal-link:hover, .customListManageLink-text:hover, .customListManageLink-link:hover,
-    .customListManageLink-link.jsx-344958363:hover {
+    .title-edit-modal-link:hover,
+    .customListManageLink-link:hover,
+    .customListManageLink-link.jsx-344958363:hover,
+    .customListManageLink-link.jsx-344958363:hover .customListManageLink-text.jsx-344958363 {
         color: white !important;
         filter: drop-shadow(0 0 1px #ffffff7a) !important;
     }
