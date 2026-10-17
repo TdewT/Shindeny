@@ -130,7 +130,7 @@
     }
 
 
-    &.is-active, &.active {
+    &.is-active, & .active {
         border-bottom: 1px solid rgba(156, 100, 226, 0.8) !important;
         background-image: linear-gradient(rgba(158, 64, 255, 0), rgba(161, 90, 255, 0.15));
         padding-left: 5%;
