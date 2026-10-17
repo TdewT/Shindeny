@@ -777,6 +777,13 @@
     border-bottom: 2px solid rgba(236, 234, 236, 0.5) !important;
 }
 
+/* Link hover */
+@media screen and (min-width: 1024px) {
+    .title-edit-modal-link, .customListManageLink-link, .customListManageLink-text {
+        color: white !important;
+        filter: drop-shadow(0 0 1px #ffffff7a) !important;
+    }
+}
 
 /**************************************
  * SELECT OPTIONS
