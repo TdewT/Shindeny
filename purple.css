@@ -646,7 +646,6 @@
 
 /* Header Styling */
 .modal-header {
-    box-shadow: 0 0 20px rgb(106, 61, 139) !important;
     background-color: rgb(113, 70, 136) !important;
     border-bottom: 2px solid rgb(199, 133, 236) !important;
     padding: 15px 20px !important;
