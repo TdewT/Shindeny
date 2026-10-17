@@ -786,7 +786,7 @@
 
 /* Link hover */
 @media screen and (min-width: 1024px) {
-    .title-edit-modal-link, .customListManageLink-link, .customListManageLink-text {
+    .title-edit-modal-link:hover, .customListManageLink-link:hover, .customListManageLink-text:hover {
         color: white !important;
         filter: drop-shadow(0 0 1px #ffffff7a) !important;
     }
