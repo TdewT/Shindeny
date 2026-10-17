@@ -625,7 +625,7 @@
 /* Modal Container and Background */
 .modal-inner {
     border-radius: 12px !important;
-    box-shadow: 0 0 32px rgba(128, 0, 255, 0.41) !important;
+    box-shadow: 0 0 32px rgba(128, 0, 255, 0.28) !important;
     background: rgb(46, 23, 70) !important;
     backdrop-filter: blur(12px) !important;
     border: 1px solid rgba(104, 0, 255, 0.28) !important;
