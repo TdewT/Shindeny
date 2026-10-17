@@ -616,10 +616,10 @@
 /* Modal Container and Background */
 .modal-inner {
     border-radius: 12px !important;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2) !important;
-    background: rgba(25, 28, 36, 0.95) !important;
+    box-shadow: 0 0 32px rgba(128, 0, 255, 0.41) !important;
+    background: rgb(46, 23, 70) !important;
     backdrop-filter: blur(12px) !important;
-    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(104, 0, 255, 0.28) !important;
     padding: 0 !important;
 }
 
@@ -630,9 +630,10 @@
 
 /* Header Styling */
 .modal-header {
-    background: rgba(35, 38, 45, 0.8) !important;
+    box-shadow: 0 0 20px rgb(106, 61, 139) !important;
+    background-color: rgb(113, 70, 136) !important;
+    border-bottom: 2px solid rgb(199,133,236) !important;
     padding: 15px 20px !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
