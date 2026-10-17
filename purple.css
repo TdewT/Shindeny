@@ -177,6 +177,7 @@
 .MuiPaper-root {
     background: transparent !important;
 }
+
 .dropdown-button {
     background-color: rgba(80, 25, 120, 0.7) !important;
     border: 1px solid rgba(156, 100, 226, 0.75) !important;
@@ -221,6 +222,7 @@
     color: rgba(156, 100, 226, 0.9) !important;
 
     /* Styling for track element */
+
     & .MuiSlider-track {
         background-image: linear-gradient(
                 to right,
@@ -230,6 +232,7 @@
     }
 
     /* Thumb + label/text elements */
+
     & .MuiSlider-thumb {
         z-index: 9999;
         background-color: rgba(156, 100, 226, 0.9) !important;
@@ -238,6 +241,7 @@
         transition: all 0.3s ease;
 
         /* Label showing corresponding year */
+
         & > * > * {
             background: linear-gradient(
                     to bottom right,
@@ -254,15 +258,19 @@
 
         /* Hover effect for label showing corresponding year */
         /* When slider is moved by user */
+
         &.MuiSlider-active {
             transform: rotate(0deg) !important;
         }
+
         /* Overwrite style when cursor is over the thumb */
+
         &:hover {
             transform: scale(1.2) rotate(45deg) !important;
         }
 
         /* Text spans for label showing corresponding year */
+
         & .MuiSlider-valueLabel span span {
             color: #d9b1ff !important;
             text-shadow: 0 0 6px rgba(156, 100, 226, 0.5);
@@ -271,6 +279,7 @@
     }
 
     /* Hover effect for main track */
+
     &:hover .MuiSlider-track {
         box-shadow: 0 0 12px rgba(156, 100, 226, 0.6);
     }
@@ -365,11 +374,11 @@
 
 /* Force hover effect if dropdown is active */
 /* CONDITIONS: FOR NORMAL DROPDOWN */
-    /* Check by css class  */
+/* Check by css class  */
 .custom-dropdown:has(.css-26l3qy-menu) .custom-dropdown-control,
     /* Check if the dropdown div exists */
 .custom-dropdown:has(:nth-child(4)) .custom-dropdown-control,
-/* FOR ASYNC DROPDOWN */
+    /* FOR ASYNC DROPDOWN */
     /* Check by css class  */
 .custom-async-dropdown:has(.css-26l3qy-menu) .custom-dropdown-control,
     /* Check if the dropdown div exists */
@@ -450,7 +459,7 @@
     border: 2px solid rgba(156, 100, 226, 0.7) !important;
 }
 
-.button-wrapper .button, .modal-footer-button{
+.button-wrapper .button, .modal-footer-button {
     color: white !important;
     background-color: rgba(80, 25, 120, 0.7) !important;
     border: 1px solid rgba(156, 100, 226, 0.75) !important;
@@ -464,11 +473,11 @@
     }
 }
 
-.modal-footer-button--cancel{
+.modal-footer-button--cancel {
     border-radius: 0 0 0 20px;
 }
 
-.modal-footer-button--save{
+.modal-footer-button--save {
     border-radius: 0 20px 0 0;
 }
 
@@ -632,7 +641,7 @@
 .modal-header {
     box-shadow: 0 0 20px rgb(106, 61, 139) !important;
     background-color: rgb(113, 70, 136) !important;
-    border-bottom: 2px solid rgb(199,133,236) !important;
+    border-bottom: 2px solid rgb(199, 133, 236) !important;
     padding: 15px 20px !important;
     display: flex !important;
     justify-content: space-between !important;
