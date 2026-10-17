@@ -144,6 +144,13 @@
         & span {
             color: #cea0ff !important;
         }
+
+        /* Disable custom list link effects */
+
+        &.sidebar-customList-link {
+            background-color: transparent;
+            border: 0;
+        }
     }
 }
 
